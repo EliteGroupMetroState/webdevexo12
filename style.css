@@ -1,0 +1,221 @@
+body
+{
+background-image:url("back1.jpg");	
+}
+
+
+#menuHome
+{
+	background-color:red;
+	position:absolute;
+}
+#content-menue
+{
+	
+	height:40px;
+	position:relative;
+}
+dl{
+	height:40px;
+	margin:10;
+	padding:20;
+	display:block;
+	float:left;
+}
+dt
+{
+	display:block;
+	height:40px;
+	color:blue;
+	line-height:40px;
+	text-align:center;
+	border-right:dotted 1px #C98C51;
+	cursor: pointer;
+	box-shadow:6px 6px 6px blue;
+	text-shadow: 2px 2px 3px green;
+	border-radius:10px;
+	background-color:yellow;
+	
+}
+dd
+{
+	display:block;
+	margin:0;
+	padding:0;
+	background-color:lime;
+}
+dd ul 
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	list-style:none;
+	 
+}
+dd ul li
+{
+	display:block;
+}
+dd ul li a
+{
+  color:#C98C51;
+  display:block;
+  text-decoration:none;
+  height:30px;
+  line-height:30px;
+  border-top:dotted 1px #C98C51;
+  border-bottom:dotted 1px #c98c51;
+   
+}
+
+dd ul li a:hover
+{
+	background-color:yellow;
+	color:blue;
+}
+dl dd
+{
+	display:none; 
+}
+dl:hover dd
+{
+	display:block;
+	
+}
+.messagepanel2,.messagepanel
+{
+	display:inline-block;
+	vertical-align:top;
+	text-align:justify;
+}
+.messagepanel
+{
+	width:625px;
+	margin-right:275px;
+}
+.messagepanel
+{
+	position:relative; 
+	width:470px;
+	box-shadow:0px 2px 5px #lclal9;
+	Border-raduis:10px;
+	padding:10px;
+	color:black;
+	font-size:0.9em;
+	margin:60px;
+}
+.messagepanel p 
+{
+	font-size:1.1em;
+}
+
+.btn
+ {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover 
+{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+
+}
+
+nav
+{
+	display: inline-block;
+	width:740px;
+	text-align: right;
+	
+
+}
+nav ul
+{
+list-style-type:none;	
+}
+nav li
+{
+	display:inline-block;
+	margin-right:15px;
+}
+nav a
+{
+	font-size:1.3em;
+	color:#FF8300;
+	padding-bottom:3px;
+	text-decoration:none;
+}
+.bergerpub
+{
+	color:green;
+	font-size:1.5em;
+	text-decoration:blink;
+	
+}
+.text
+{
+background-color:orange;
+border-radius:10px;
+font-size:large;	
+}
+.contact
+{
+	font-size:medium;
+	border-radius:10px;
+	background-color:lime;
+	color:black;
+	font-weight:bold;
+	list-style-type:none;
+	box-shadow: 5px 5px 5px black;
+}
+.welcomeword
+{
+	color:red;
+	font-size:1.4em;
+}
+.position
+{
+	font-style:italic;
+}
+.formatsub
+{
+	text-shadow:2px 2px 4px black;
+}
+.maintitle
+{
+	color:yellow;
+	text-shadow:2px 2px 4px brown;
+}
+.foundermsg
+{
+	color:black;
+	background-color:yellow;
+	border-radius:10px;
+	box-shadow:2px 2px 0px blue;
+}
+.screen-reader-text
+{
+	color:red;
+	text-shadow:2px 2px 3px blue;
+	font-family: Broadway;
+	font-size:1.3em;
+	
+}
